@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install && npm run build:css && npm run build:js",
-    "build:css": "node-sass node_modules/dist/bootstrap/css/bootstrap.scss dist/css/bootstrap.min.css",
-    "build:js": "mkdir -p dist/js && cp ./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js dist/js/"
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
