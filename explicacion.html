@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LandingPage</title>
+    <link
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/@flaticon/flaticon-uicons/css/all/all.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid bg-dark pt-3 d-none d-lg-block">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-6 text-center text-white text-lg-left mb-2 mb-lg-0"
+            >
+              <div class="d-inline-flex align-items-center">
+                <p>
+                  <i class="fa fa-envelope mr-2"></i>ConstruVision@una.ac.cr
+                </p>
+                <p class="text-white px-3">|</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+506 8345 6789</p>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+              <div class="d-inline-flex align-items-center">
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-facebook"></i>
+                </a>
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-twitter-alt-circle"></i>
+                </a>
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-linkedin"></i>
+                </a>
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-instagram"></i>
+                </a>
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container shadow-lg rounded">
+          <a class="navbar-brand" href="#">
+            <img src="./Img/construIcon.png" alt="Logo" width="70" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fs-5 fw-bold"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Trámites
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="explicacion.html"
+                      >Explicación de servicios</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="formulario.html"
+                      >Formulario de construcción</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Realizacion de proyectos</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold" href="#">Redes Sociales</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="d-flex justify-content-center align-items-center back-image-sec1"
+        style="height: 50vh"
+      >
+        <div class="container my-3 row gx-5 justify-content-center">
+          <div class="col-lg-10 text-shadow">
+            <h1 class="text-center fs-3 text-white fw-bold">
+              ¡Bienvenido a nuestra plataforma de servicios para proyectos de
+              construcción!
+            </h1>
+            <p class="text-center fs-5 fw-semibold text-white shadow-none">
+              Estamos aquí para ofrecerte asesoramiento experto y soluciones
+              integrales en todas las etapas de tu proyecto. Desde el diseño
+              arquitectónico hasta la gestión y control de calidad, estamos
+              comprometidos a ayudarte a hacer realidad tus ideas de manera
+              eficiente y exitosa. Explora nuestros servicios y descubre cómo
+              podemos ser tu socio confiable en este emocionante viaje de
+              construcción.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="consultoriaSection"
+        class="bg-body-secondary p-4 d-flex justify-content-center align-items-center"
+      >
+        <div class="row container">
+          <div class="col-lg-8 justify-content-center align-items-center">
+            <h2 class="text-center fs-3">
+              Consultoría de Diseño Arquitectónico
+            </h2>
+            <p class="text-center fs-5 fw-semibold">
+              Descubre cómo nuestra consultoría de diseño arquitectónico puede
+              dar vida a tus proyectos de construcción. Desde la planificación
+              de espacios hasta la selección de materiales, estamos aquí para
+              ofrecerte el asesoramiento necesario para crear espacios
+              funcionales y estéticamente atractivos. Explora cómo nuestros
+              expertos pueden ayudarte a hacer realidad tus ideas
+              arquitectónicas
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="d-flex justify-content-center align-items-center ratio ratio-16x9"
+            >
+              <iframe
+                src="https://www.youtube.com/embed/1hLBCOlptq8?si=67i9koJJKvN0SR1Q"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="gestionSection"
+        class="bg-dark-subtle p-4 d-flex justify-content-center align-items-center"
+      >
+        <div class="row container">
+          <div class="col-lg-4">
+            <div
+              class="d-flex justify-content-center align-items-center ratio ratio-16x9"
+            >
+              <iframe
+                src="https://www.youtube.com/embed/Oo6WAQJzKpw?si=eobeI0bbikPK7xTM"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-lg-8 justify-content-center align-items-center">
+            <h2 class="text-center fs-3">Gestión de Proyectos</h2>
+            <p class="text-center fs-5 fw-semibold">
+              Descubre cómo nuestra gestión de proyectos puede ayudarte a llevar
+              a cabo tu proyecto de construcción de manera eficiente y exitosa.
+              Desde la planificación y organización hasta la supervisión y
+              control de calidad, estamos aquí para ofrecerte soluciones
+              integrales que te permitan alcanzar tus objetivos de manera
+              efectiva. Explora cómo nuestros expertos pueden ayudarte a hacer
+              realidad tus ideas arquitectónicas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="evaluacionSection"
+        class="bg-body-secondary p-4 d-flex justify-content-center align-items-center"
+      >
+        <div class="row container">
+          <div class="col-lg-8 justify-content-center align-items-center">
+            <h2 class="text-center fs-3">
+              Evaluación de Viabilidad y Estudios de Factibilidad
+            </h2>
+            <p class="text-center fs-5 fw-semibold">
+              Descubre la importancia de nuestros análisis exhaustivos de
+              viabilidad y estudios de factibilidad para tus proyectos de
+              construcción. Evaluamos todos los aspectos técnicos, económicos,
+              legales y ambientales para garantizar la viabilidad y rentabilidad
+              de tu proyecto. Explora cómo nuestros expertos pueden ayudarte a
+              tomar decisiones informadas desde el principio.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="d-flex justify-content-center align-items-center ratio ratio-16x9"
+            >
+              <iframe
+                src="https://www.youtube.com/embed/SVp10nqad6Q?si=9OIpP9XNaNjFAO6z"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="inspeccionSection"
+        class="bg-dark-subtle p-4 d-flex justify-content-center align-items-center"
+      >
+        <div class="row container">
+          <div class="col-lg-4">
+            <div
+              class="d-flex justify-content-center align-items-center ratio ratio-16x9"
+            >
+              <iframe
+                src="https://www.youtube.com/embed/2F3qIZxM44I?si=PiZv_cK-orFHwbC8"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-lg-8 justify-content-center align-items-center">
+            <h2 class="text-center fs-3">
+              Inspección Técnica y Control de Calidad
+            </h2>
+            <p class="text-center fs-5 fw-semibold">
+              Asegura la calidad y seguridad de tu proyecto con nuestra
+              inspección técnica y control de calidad. Nuestro equipo realiza
+              inspecciones periódicas en todas las etapas del proyecto para
+              identificar posibles problemas y garantizar el cumplimiento de los
+              estándares de calidad. Descubre cómo podemos ayudarte a mantener
+              la excelencia en cada detalle de tu construcción.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="materialesSection"
+        class="bg-body-secondary p-4 d-flex justify-content-center align-items-center"
+      >
+        <div class="row container">
+          <div class="col-lg-8 justify-content-center align-items-center">
+            <h2 class="text-center fs-3">
+              Asesoramiento en Selección de Materiales y Tecnologías
+            </h2>
+            <p class="text-center fs-5 fw-semibold">
+              Encuentra los materiales y tecnologías adecuados para tu proyecto
+              con nuestro asesoramiento especializado. Consideramos factores
+              como durabilidad, eficiencia energética y sostenibilidad para
+              ayudarte a tomar decisiones informadas. Descubre cómo podemos
+              guiarte hacia las mejores opciones para tus necesidades de
+              construcción.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="d-flex justify-content-center align-items-center ratio ratio-16x9"
+            >
+              <iframe
+                src="https://www.youtube.com/embed/nsV-Ymqnc1M?si=ZvDxuH9veFse05pt"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="bg-dark-subtle p-4 d-flex justify-content-center align-items-center"
+      >
+        <div class="row container">
+          <h2 class="text-center fs-3">Beneficios Generales del Servicio</h2>
+          <div
+            class="col-lg-12 d-flex justify-content-center align-items-center"
+          >
+            <ul class="fs-6 fw-semibold">
+              <li class="mb-2">
+                Expertos a tu disposición: Nuestro equipo de expertos está aquí
+                para brindarte asesoramiento y apoyo en cada etapa de tu
+                proyecto.
+              </li>
+              <li class="mb-2">
+                Optimización del proceso: Simplifica y optimiza tu proceso de
+                construcción con nuestra gestión integral de proyectos y
+                servicios especializados.
+              </li>
+              <li class="mb-2">
+                Garantía de calidad: Asegura la calidad y seguridad de tu
+                proyecto con nuestras inspecciones técnicas periódicas y control
+                de calidad.
+              </li>
+              <li class="mb-2">
+                Ahorro de tiempo y recursos: Nuestra experiencia y conocimientos
+                te ayudarán a evitar contratiempos y costos adicionales,
+                garantizando la eficiencia en la ejecución de tu proyecto.
+              </li>
+              <li class="mb-2">
+                Resultados exitosos: Con nuestra ayuda, puedes estar seguro de
+                que tu proyecto se completará con éxito, cumpliendo con tus
+                expectativas y requerimientos.
+              </li>
+              <li class="mb-2">
+                Descubre cómo nuestra plataforma puede hacer que tu experiencia
+                de construcción sea más fácil, eficiente y exitosa.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="bg-body-secondary p-4 d-flex justify-content-center align-items-center"
+      >
+        <div class="row container">
+          <h2 class="text-center fs-3">Cómo Acceder al Servicio:</h2>
+          <div
+            class="justify-content-center align-items-center fs-6 fw-semibold"
+          >
+            <p class="mb-2">
+              Para acceder a nuestros servicios municipales, simplemente sigue
+              estos pasos sencillos:
+            </p>
+            <ul>
+              <li>
+                Visita nuestra oficina: Puedes acercarte a nuestra oficina
+                ubicada en Av. Principal #123, Perez Zeledon durante el horario
+                de atención al público.
+              </li>
+              <li>
+                Llama por teléfono: Si prefieres comunicarte por teléfono,
+                puedes llamarnos al (506) 8456-7890 para hablar con uno de
+                nuestros representantes.
+              </li>
+              <li>
+                Envía un correo electrónico: También puedes enviarnos un correo
+                electrónico a [dirección de correo electrónico] con tus
+                consultas o para programar una cita.
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center align-items-center">
+              <a class="btn btn-primary btn-lg px-4" href="formulario.html"
+                >Llenar Formulario de construcción</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-dark-subtle p-4">
+        <div class="container">
+          <p class="text-center fs-5 fw-semibold mx-5 px-5">
+            ¡Estamos aquí para ayudarte a hacer realidad tus ideas
+            arquitectónicas! Contáctanos para obtener más información sobre
+            nuestros servicios y descubre cómo podemos ser tu socio confiable en
+            este emocionante viaje de construcción.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mt-4">
+            <h5>Acerca de Nosotros</h5>
+            <p>
+              Somos una empresa dedicada a proporcionar soluciones integrales en
+              el campo de la construcción. Nuestro equipo de expertos se
+              esfuerza por ofrecer servicios de alta calidad y satisfacer las
+              necesidades de nuestros clientes.
+            </p>
+            <p>Para más información, no dudes en contactarnos:</p>
+            <ul class="list-unstyled text-white">
+              <li>Dirección: Av. Principal #123, Perez Zeledon</li>
+              <li>Teléfono: (506) 8456-7890</li>
+              <li>Email: ConstruVision@una.ac.cr</li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-4">
+            <h5>Nuestros Servicios</h5>
+            <ul class="list-unstyled text-white">
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#consultoriaSection"
+                  >Consultoría de Diseño Arquitectónico</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#gestionSection"
+                  >Gestión de Proyectos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#evaluacionSection"
+                  >Evaluación de Viabilidad y Estudios de Factibilidad</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#inspeccionSection"
+                  >Inspección Técnica y Control de Calidad</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#materialesSection"
+                  >Asesoramiento en Selección de Materiales y Tecnologías</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-4">
+            <h5>Enlaces Útiles</h5>
+            <ul class="list-unstyled text-muted">
+              <li>
+                <a class="text-decoration-none text-white" href="#"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#"
+                  >Política de Privacidad</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#"
+                  >Términos y Condiciones</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#">Blog</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#"
+                  >Contáctanos</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <hr class="bg-white" />
+            <p class="text-center">
+              © 2024 ContruVision. Todos los derechos reservados.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</html>

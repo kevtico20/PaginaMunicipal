@@ -1,229 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./dist/css/style.css">
-    <link rel="stylesheet" href="./dist/css/all.css">
-</head>
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <link rel="stylesheet" href="./dist/css/all.css" />
+    <link href="./node_modules/@flaticon/flaticon-uicons/css/all/all.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container-fluid bg-dark pt-3 d-none d-lg-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 text-center text-white text-lg-left mb-2 mb-lg-0">
-                        <div class="d-inline-flex align-items-center">
-                            <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-                            <p class="text-body px-3">|</p>
-                            <p><i class="fa fa-phone-alt mr-2"></i>+506 8345 6789</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-center text-lg-right">
-                        <div class="d-inline-flex align-items-center">
-                            <a class="text-decoration-none text-white px-3 fs-3" href="">
-                                <i class="fi fi-brands-facebook"></i>
-                            </a>
-                            <a class="text-decoration-none text-white px-3 fs-3" href="">
-                                <i class="fi fi-brands-twitter-alt-circle"></i>
-                            </a>
-                            <a class="text-decoration-none text-white px-3 fs-3" href="">
-                                <i class="fi fi-brands-linkedin"></i>
-                            </a>
-                            <a class="text-decoration-none text-white px-3 fs-3" href="">
-                                <i class="fi fi-brands-instagram"></i>
-                            </a>
-                            <a class="text-decoration-none text-white px-3 fs-3" href="">
-                                <i class="fi fi-brands-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container-fluid bg-dark pt-3 d-none d-lg-block">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-6 text-center text-white text-lg-left mb-2 mb-lg-0"
+            >
+              <div class="d-inline-flex align-items-center">
+                <p>
+                  <i class="fa fa-envelope mr-2"></i>ConstruVision@una.ac.cr
+                </p>
+                <p class="text-white px-3">|</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+506 8345 6789</p>
+              </div>
             </div>
-        </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <div class="container shadow-lg">
-                <a class="navbar-brand" href="#">
-                    <img src="ruta_al_logo.png" alt="Logo" width="50">
+            <div class="col-lg-6 text-center text-lg-right">
+              <div class="d-inline-flex align-items-center">
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-facebook"></i>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 fw-bold" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fs-5 fw-bold" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Trámites
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Explicación de servicios</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="formulario.html">Formulario de construcción</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Realizacion de proyectos</a></li>
-                                <!-- Puedes agregar más elementos aquí según sea necesario -->
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 fw-bold" href="#">Trabajos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 fw-bold" href="#">FAQ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 fw-bold" href="#">Redes Sociales</a>
-                        </li>
-                    </ul>
-                </div>
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-twitter-alt-circle"></i>
+                </a>
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-linkedin"></i>
+                </a>
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-instagram"></i>
+                </a>
+                <a class="text-decoration-none text-white px-3 fs-4" href="">
+                  <i class="fi fi-brands-youtube"></i>
+                </a>
+              </div>
             </div>
-        </nav>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container shadow-lg rounded">
+          <a class="navbar-brand" href="#">
+            <img src="./Img/construIcon.png" alt="Logo" width="70" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fs-5 fw-bold"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Trámites
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="explicacion.html"
+                      >Explicación de servicios</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="formulario.html"
+                      >Formulario de construcción</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Realizacion de proyectos</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bold" href="#">Redes Sociales</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <article>
-            <section class="bg-light">
-                <div class="container mb-5">
-                    <h1 class="text-center mb-5">Permiso de Construcción <i class="fi fi-rs-form"></i></h1>
-                    <form>
-                        <div class="row mb-3">
-                            <div class="col-md-4">
-                                <label for="nombre" class="form-label">Nombre:</label>
-                                <input type="text" class="form-control " id="nombre" placeholder="Ingrese su nombre">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="apellido" class="form-label">Apellido:</label>
-                                <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="correo" class="form-label">Gmail:</label>
-                                <input type="gmail" class="form-control" id="correo" placeholder="Ingrese su correo">
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="direccion" class="form-label">Dirección:</label>
-                            <input type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección">
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="ciudad" class="form-label">Ciudad:</label>
-                                <input type="text" class="form-control" id="ciudad" placeholder="Ingrese su ciudad">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="estado" class="form-label">Estado:</label>
-                                <input type="text" class="form-control" id="estado" placeholder="Ingrese su estado">
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="tipo_construccion" class="form-label">Tipo de construcción:</label>
-                            <select class="form-select" id="tipo_construccion">
-                                <option value="">Seleccione el tipo de construcción</option>
-                                <option value="residencial">Residencial</option>
-                                <option value="comercial">Comercial</option>
-                                <option value="industrial">Industrial</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label for="descripcion" class="form-label">Descripción de la construcción:</label>
-                            <textarea class="form-control" id="descripcion" rows="5"
-                                placeholder="Ingrese una descripción de la construcción"></textarea>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Adjuntar planos:</label>
-                            <input class="form-control" type="file" id="adjuntar_planos">
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="acuerdo">
-                            <label class="form-check-label" for="acuerdo">Acepto los términos y condiciones</label>
-                        </div>
-                        <button type="button" class="mb-5 btn btn-primary" id="enviarBtn">Enviar</button>
-                    </form>
+      <article>
+        <section class="bg-light">
+          <div class="container mb-5">
+            <h1 class="text-center mb-5">
+              Permiso de Construcción <i class="fi fi-rs-form"></i>
+            </h1>
+            <form>
+              <div class="row mb-3">
+                <div class="col-md-4">
+                  <label for="nombre" class="form-label">Nombre:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nombre"
+                    placeholder="Ingrese su nombre"
+                  />
                 </div>
-            </section>
-        </article>
+                <div class="col-md-4">
+                  <label for="apellido" class="form-label">Apellido:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="apellido"
+                    placeholder="Ingrese su apellido"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="correo" class="form-label">Gmail:</label>
+                  <input
+                    type="gmail"
+                    class="form-control"
+                    id="correo"
+                    placeholder="Ingrese su correo"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="direccion" class="form-label">Dirección:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="direccion"
+                  placeholder="Ingrese su dirección"
+                />
+              </div>
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <label for="ciudad" class="form-label">Ciudad:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="ciudad"
+                    placeholder="Ingrese su ciudad"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="estado" class="form-label">Estado:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="estado"
+                    placeholder="Ingrese su estado"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="tipo_construccion" class="form-label"
+                  >Tipo de construcción:</label
+                >
+                <select class="form-select" id="tipo_construccion">
+                  <option value="">Seleccione el tipo de construcción</option>
+                  <option value="residencial">Residencial</option>
+                  <option value="comercial">Comercial</option>
+                  <option value="industrial">Industrial</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="descripcion" class="form-label"
+                  >Descripción de la construcción:</label
+                >
+                <textarea
+                  class="form-control"
+                  id="descripcion"
+                  rows="5"
+                  placeholder="Ingrese una descripción de la construcción"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Adjuntar planos:</label>
+                <input class="form-control" type="file" id="adjuntar_planos" />
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="acuerdo" />
+                <label class="form-check-label" for="acuerdo"
+                  >Acepto los términos y condiciones</label
+                >
+              </div>
+              <button
+                type="button"
+                class="mb-5 btn btn-primary col-lg-2"
+                id="enviarBtn"
+              >
+                Enviar
+              </button>
+            </form>
+          </div>
+        </section>
+      </article>
     </main>
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header bg-opacity-75">
-                    <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body fs-4" id="modal-body-content">
-                    <!-- Contenido del mensaje -->
-                </div>
-                <div class="modal-footer bg-opacity-75">
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-opacity-75">
+            <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body fs-4" id="modal-body-content">
+            <!-- Contenido del mensaje -->
+          </div>
+          <div class="modal-footer bg-opacity-75">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
         </div>
+      </div>
     </div>
     <!-- footer -->
     <footer class="footer bg-dark text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mt-4">
-                    <h5>Acerca de Nosotros</h5>
-                    <p>Somos una empresa dedicada a proporcionar soluciones integrales en el campo de la construcción.
-                        Nuestro equipo de expertos se esfuerza por ofrecer servicios de alta calidad y satisfacer las
-                        necesidades de nuestros clientes.</p>
-                    <p>Para más información, no dudes en contactarnos:</p>
-                    <ul class="list-unstyled text-white">
-                        <li>Dirección: Av. Principal #123, Perez Zeledon</li>
-                        <li>Teléfono: (506) 8456-7890</li>
-                        <li>Email: info@tuempresa.com</li>
-                    </ul>
-                </div>
-                <div class="col-md-4 mt-4">
-                    <h5>Nuestros Servicios</h5>
-                    <ul class="list-unstyled text-white">
-                        <li><a class="text-decoration-none text-white" href="#">Consultoría de Diseño Arquitectónico</a>
-                        </li>
-                        <li><a class="text-decoration-none text-white" href="#">Gestión de Proyectos</a></li>
-                        <li><a class="text-decoration-none text-white" href="#">Evaluación de Viabilidad y Estudios de
-                                Factibilidad</a></li>
-                        <li><a class="text-decoration-none text-white" href="#">Inspección Técnica y Control de
-                                Calidad</a></li>
-                        <li><a class="text-decoration-none text-white" href="#">Asesoramiento en Selección de Materiales
-                                y Tecnologías</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 mt-4">
-                    <h5>Enlaces Útiles</h5>
-                    <ul class="list-unstyled text-muted">
-                        <li><a class="text-decoration-none text-white" href="#">Preguntas Frecuentes</a></li>
-                        <li><a class="text-decoration-none text-white" href="#">Política de Privacidad</a></li>
-                        <li><a class="text-decoration-none text-white" href="#">Términos y Condiciones</a></li>
-                        <li><a class="text-decoration-none text-white" href="#">Blog</a></li>
-                        <li><a class="text-decoration-none text-white" href="#">Contáctanos</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <hr class="bg-white">
-                    <p class="text-center">© 2024 ContruVision. Todos los derechos reservados.</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mt-4">
+            <h5>Acerca de Nosotros</h5>
+            <p>
+              Somos una empresa dedicada a proporcionar soluciones integrales en
+              el campo de la construcción. Nuestro equipo de expertos se
+              esfuerza por ofrecer servicios de alta calidad y satisfacer las
+              necesidades de nuestros clientes.
+            </p>
+            <p>Para más información, no dudes en contactarnos:</p>
+            <ul class="list-unstyled text-white">
+              <li>Dirección: Av. Principal #123, Perez Zeledon</li>
+              <li>Teléfono: (506) 8456-7890</li>
+              <li>Email: ConstruVision@una.ac.cr</li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-4">
+            <h5>Nuestros Servicios</h5>
+            <ul class="list-unstyled text-white">
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#consultoriaSection"
+                  >Consultoría de Diseño Arquitectónico</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#gestionSection"
+                  >Gestión de Proyectos</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#evaluacionSection"
+                  >Evaluación de Viabilidad y Estudios de Factibilidad</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#inspeccionSection"
+                  >Inspección Técnica y Control de Calidad</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-decoration-none text-white"
+                  href="explicacion.html#materialesSection"
+                  >Asesoramiento en Selección de Materiales y Tecnologías</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-4">
+            <h5>Enlaces Útiles</h5>
+            <ul class="list-unstyled text-muted">
+              <li>
+                <a class="text-decoration-none text-white" href="#"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#"
+                  >Política de Privacidad</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#"
+                  >Términos y Condiciones</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#">Blog</a>
+              </li>
+              <li>
+                <a class="text-decoration-none text-white" href="#"
+                  >Contáctanos</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-12">
+            <hr class="bg-white" />
+            <p class="text-center">
+              © 2024 ContruVision. Todos los derechos reservados.
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
-<script src="./js/validaciones.js"></script>
-<script src="./js/modal.js"></script>
-<script src="./js/bootstrap.bundle.min.js"></script>
-
+  </body>
+  <script src="./js/validaciones.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
 </html>

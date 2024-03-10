@@ -1,6 +1,22 @@
-.back-image{
-    background-image: url('../../Img/background.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.back-image {
+  background-image: url("../Img/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.back-image-sec1 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../Img/explicacionImages/exp_sec_1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-shadow {
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.7);
 }
