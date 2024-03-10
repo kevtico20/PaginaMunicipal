@@ -1,3 +1,6 @@
+La pagina se accede por medio de este link que fue hecho en Netifly
+https://main--asesoracontru.netlify.app
+
 
 La creacion de los layouts fue de los procedimientos que más costaron ya que requirio mucho tiempo de entender como funciona, en el formulario como aspecto relevante fue el uso de JavaScripts ya que debía enteder como funcionaba los llamados del DOM esto ya que funcionaba de manera en tiempo real
 
