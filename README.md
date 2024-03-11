@@ -19,17 +19,18 @@ Landing Page:
     -La imagen de background si fue algo que se uso CSS ya que hay aspecto que si requieren más personalización 
     -Entendimiento de las contenedores de cartas(cards) que le dan una linda especialización
     
+pagina de explicacion
+    -Bien definidas las secciones
+    -cada seccion cuenta con un video relevante sobre el servicio dado
+    -al final estan los medios de comunicacion y acceso directo al formulario
 
-
-
+    aunque bootstrap tiene muchas utilidades y herramientas carece de algunas caracteristicas que con css puro son simples, como alturas, margin, padding manejo de imagenes entre otros.
+    Y siento que carga mucho la estructura de html a parte que para que haga lo que uno desea hay que agregar mas divs o estructuras.
 
 Formulario:
 
     -Este posee un formulario que por diseño de bootstrap creo que esta perfecto, la documentación que posee de esto es extensa entonces hay de donde escoger y aprender
     -También se vio un poco el uso de acomode estos mismo por medio del ro y col-md-4 y entre otros para el responsive
-
-
-
 
  Importante, entienda el sistema de layout de Bootstrap para asegurar que la página sea responsiva y se vea bien en diferentes dispositivos. Para esto investigue y resuma su idea de lo aprendido en unas 10 líneas aquí:
 
